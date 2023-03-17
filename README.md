@@ -1,4 +1,4 @@
-# mama-fua-allocation
+# mama-fua-allocation 
 # define list of laundry tasks
 laundry_tasks = ['Wash whites', 'Wash darks', 'Dry clothes', 'Fold clothes']
 
@@ -8,7 +8,7 @@ mama_fua = ['Alice', 'Bob', 'Charlie', 'Dave']
 # how many tasks each person will do
 tasks_per_mama_fua = len(laundry_tasks) // len(mama_fua)
 
-# assign tasks to mama fuas
+# assign laundry tasks to mama fuas
 laundry_allocation = {}
 for i, task in enumerate(laundry_tasks):
     person_index = i % len(mama_fua)
